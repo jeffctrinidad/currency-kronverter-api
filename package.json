@@ -1,0 +1,36 @@
+{
+  "name": "currency-kronverter-api",
+  "version": "1.0.0",
+  "description": "GraphQL API for Anyfin's Hiring Assessment",
+  "main": "index.js",
+  "scripts": {
+    "local": "nodemon -r dotenv/config index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffctrinidad/currency-kronverter-api.git"
+  },
+  "author": "Jeff Trinidad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeffctrinidad/currency-kronverter-api/issues"
+  },
+  "homepage": "https://github.com/jeffctrinidad/currency-kronverter-api#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "prettier": "2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0",
+    "graphql-rate-limit": "^2.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "node-fetch": "^2.6.0"
+  }
+}
