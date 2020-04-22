@@ -19,3 +19,10 @@ How to use:
 9. It should generate the accessToken and refreshToken.
 10. If using graphiql client, we need to use a plug-in like modheader to override the Authorization request header. Or we can also use other clients like Altair or Postman.
 11. Once done, remove the `?operation=login` and the queries can now be used. (`?operation=login` is for logging in only)
+
+Used prettier with the following settings:
+{
+"editor.formatOnSave": true,
+"prettier.semi": false,
+"prettier.singleQuote": true
+}
